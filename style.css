@@ -1,0 +1,144 @@
+/* style.css */
+
+body {
+               font-family: Arial, sans-serif;
+               margin: 0;
+               padding: 0;
+               background-color: #f8f8f8;
+               color: #333;
+           }
+           
+           header {
+               background-color: #e91e63; /*  Pink/Magenta color */
+               color: white;
+               text-align: center;
+               padding: 2em 0;
+               margin-bottom: 2em;
+           }
+           
+           header h1 {
+               margin-bottom: 0.5em;
+           }
+           
+           section {
+               padding: 2em;
+               margin-bottom: 2em;
+               background-color: white;
+               box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           }
+           
+           section h2 {
+               color: #e91e63;
+               border-bottom: 2px solid #e91e63;
+               padding-bottom: 0.5em;
+               margin-bottom: 1em;
+           }
+           
+           #photo-gallery {
+               
+               text-align: center;
+               padding: 20px;
+           }
+   
+           /* Swiper Container */
+           .swiper-container {
+               width: 90%;
+               max-width: 800px;
+               margin: auto;
+           }
+   
+           /* Slide Styling */
+           .swiper-slide {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               text-align: center;
+           }
+   
+           .swiper-slide img {
+               width: 100%;
+               max-width: 500px;
+               border-radius: 10px;
+               box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+           }
+   
+           .swiper-slide p {
+               margin-top: 10px;
+               font-size: 16px;
+               font-weight: bold;
+               color: #333;
+           }
+   
+           /* Navigation Buttons */
+           .swiper-button-next, .swiper-button-prev {
+               color: #000;
+           }
+   
+           /* Pagination Styling */
+           .swiper-pagination-bullet {
+               background: #000;
+           }
+   
+           /* Responsive Adjustments */
+           @media (max-width: 768px) {
+               .swiper-slide img {
+                   max-width: 90%;
+               }
+   
+               .swiper-slide p {
+                   font-size: 14px;
+               }
+           }
+           
+           /* Memories Styles */
+           #memories ul {
+               list-style: none;
+               padding: 0;
+           }
+           
+           #memories li {
+               margin-bottom: 1.5em;
+               padding: 1em;
+               border: 1px solid #ddd;
+               border-radius: 5px;
+           }
+           
+           #memories h3 {
+               color: #e91e63;
+               margin-bottom: 0.5em;
+           }
+           
+           /* Love Languages Styles */
+           #love-languages ul {
+               list-style: none;
+               padding: 0;
+           }
+           
+           #love-languages li {
+               margin-bottom: 1em;
+               padding: 1em;
+               border: 1px solid #ddd;
+               border-radius: 5px;
+           }
+           
+           #love-languages h3 {
+               color: #e91e63;
+               margin-bottom: 0.5em;
+           }
+           
+           .note {
+               font-style: italic;
+               text-align: center;
+               margin-top: 2em;
+           }
+           
+           footer {
+               text-align: center;
+               padding: 1em 0;
+               background-color: #333;
+             
+             
+               color: white;
+           }
+           
+            
